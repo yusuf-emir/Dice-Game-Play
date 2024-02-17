@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(/img/back.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainContainer {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+}
+
+.playerContainer1,
+.playerContainer2 {
+    flex: 1;
+    height: 600px;
+    width: 400px;
+    padding: 100px;
+    box-sizing: border-box;
+}
+
+.playerName {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 100;
+
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.playerScore1,
+.playerScore2 {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 100;
+    color: red;
+    margin-bottom: 150px;
+}
+
+.playerCurrentContainer {
+    background-color: red;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    width: 200px;
+    color: black;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.buttonNew {
+    top: 400px;
+    left: 1190px;
+}
+
+.buttonRollDice {
+    top: 750px;
+    left: 1190px;
+}
+
+.buttonStop {
+    top: 800px;
+    left: 1190px;
+}
+
+.finalScore {
+    position: absolute;
+    top: 850px;
+    left: 1190px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
